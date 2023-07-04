@@ -1,0 +1,64 @@
+Style for the container div
+
+.checkbox {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-items: flex-end;
+    margin-bottom: 20px;
+  }
+  
+ 
+  
+  .checkbox input[type="checkbox"] {
+    margin-right: 5px;
+    cursor: pointer;
+  }
+  
+  .checkbox input[type="checkbox"]:checked + span:before {
+    /* content: "\2714"; */
+    display: inline-block;
+    font-size: 14px;
+    margin-right: 5px;
+    color: #4CAF50;
+  }
+  
+  .checkbox input[type="checkbox"] + span:before {
+    content: "";
+    display: inline-block;
+    border: 1px solid #ccc;
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+    text-align: center;
+    line-height: 16px;
+    color: #ccc;
+  }
+  
+
+  .form-service{
+    width:40%;
+    margin-top: 80px;
+    background-color:rgb(226, 226, 226) ;
+    border-radius: 10px;
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0,0,0,0.47);
+    box-shadow:2px 4px 10px 1px rgba(201,201,201,0.47);
+    padding: 20px;
+  }
+
+ .homeContainer-service{
+    margin-top: 0;
+    margin-left: 0;
+  }
+  .row1 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    justify-content: space-between;
+  }
+  .service-span{
+    color: rgb(9, 3, 99);
+    font-size: large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+  }

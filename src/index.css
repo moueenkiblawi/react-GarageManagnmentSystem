@@ -1,0 +1,9 @@
+*{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.link:hover{
+    background-color:lavender;
+    color: white;
+    box-sizing: border-box;
+}

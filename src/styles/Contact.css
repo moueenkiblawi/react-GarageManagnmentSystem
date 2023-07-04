@@ -1,0 +1,49 @@
+h1{
+    color: rgb(2, 2, 102);
+    font-size: 80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+span{
+    color: blue;
+}
+.form{
+        background-color: white;
+        width: 100%;
+        margin-top: 0;
+        height: 75%;
+        border-radius:3rem ;
+        padding: 10px;
+}
+.row{
+    background-color:rgb(222, 248, 252);
+}
+.form-control{
+    
+    border-radius: 25rem;
+}
+form h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: thistle;
+}
+form button{
+    width: 100%;
+    margin-top: 25px;
+    border-radius: 5rem;
+}
+.buttomContainer{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(222, 248, 248);
+    height: 100vh;
+}
+.rightside{
+    flex: 50%;
+    margin-left: 100px;
+    
+}
+.leftside{
+    flex: 50%;
+    margin-top: 15%;
+
+}

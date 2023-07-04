@@ -1,0 +1,16 @@
+.worker-image{
+width: 40px;
+height: 40px;
+border-radius: 50%;
+}
+table{
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0,0,0,0.47);
+    box-shadow:2px 4px 10px 1px rgba(201,201,201,0.47);
+    border-radius: 10px;    
+}
+
+.shadow{
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0,0,0,0.47);
+    box-shadow:2px 4px 10px 1px rgba(201,201,201,0.47);
+    border-radius: 10px;
+}

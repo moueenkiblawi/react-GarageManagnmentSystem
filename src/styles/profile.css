@@ -1,0 +1,104 @@
+.home-profile {
+  justify-content: center;
+  display: flex;
+  margin-top: 100px;
+  max-width: 800px;
+  padding: 30px;
+  border: 1px solid #eee;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .15);
+  font-size: 16px;
+  line-height: 24px;
+  margin-left: 350px;
+  font-family: 'Helvetica Neue', 'Helvetica',;}
+
+  .home-profile img{
+    width: 150px;
+    height: 150px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .15);
+    padding: 10px;
+
+    border-radius: 50px;
+  }
+.invoice-box {
+  max-width: 800px;
+  margin: auto;
+  padding: 30px;
+  border: 1px solid #eee;
+  margin-top: 50px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .15);
+  font-size: 16px;
+  line-height: 24px;
+  font-family: 'Helvetica Neue', 'Helvetica',
+  
+  }
+  .margin-top {
+  margin-top: 50px;
+  }
+  .justify-center {
+  text-align: center;
+  }
+  .invoice-box table {
+  width: 100%;
+  
+  line-height: inherit;
+  text-align: left;
+  }
+  .invoice-box table td {
+  padding: 5px;
+  vertical-align: top;
+  }
+  .invoice-box table tr td:nth-child(2) {
+  text-align: center;
+  }
+  .invoice-box table tr.top table td {
+  padding-bottom: 20px;
+  text-align: right;
+
+  }
+  .invoice-box table tr.top table td.title {
+  font-size: 45px;
+  line-height: 45px;
+  color: #333;
+  }
+  .invoice-box table tr.information table td {
+  padding-bottom: 40px;
+  }
+  .invoice-box table tr.heading td {
+  background: #eee;
+  background-color:  rgb(9, 3, 99);
+  color: #eee;
+  border-bottom: 1px solid #ddd;
+  font-weight: bold;
+  }
+  .invoice-box table tr.details td {
+  padding-bottom: 20px;
+  }
+  .invoice-box table tr.item td {
+  border-bottom: 1px solid #eee;
+  }
+  .invoice-box table tr.item.last td {
+  border-bottom: none;
+  }
+  .invoice-box table tr.total td:nth-child(2) {
+  border-top: 2px solid #eee;
+  font-weight: bold;
+  }
+  @media only screen and (max-width: 600px) {
+  .invoice-box table tr.top table td {
+  width: 100%;
+  display: block;
+  text-align: center;
+  }
+  .invoice-box table tr.information table td {
+  width: 100%;
+  display: block;
+  text-align: center;
+  }
+  }
+  .span-profile{
+    font-style: bold;
+    color: black;
+    font-size: 19px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-right: 5px;
+  }

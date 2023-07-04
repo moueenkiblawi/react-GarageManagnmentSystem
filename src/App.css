@@ -1,0 +1,9 @@
+.Form{
+  border: 2px 2px;
+  width: 20%;
+  margin: 10% 75%;
+  background-color: grey;
+}
+.btn btn-primary{
+  align-items:center ;
+}

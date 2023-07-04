@@ -1,0 +1,57 @@
+/* .headingContainer{
+    width:100%;
+ background-image: url('../assets/pexels-mike-bird-189454.jpg');
+ background-repeat: no-repeat;
+ background-size: cover;
+    height: 100vh;
+
+} */
+.home-login{
+width: 100%;
+background-image: url('../assets/pexels-mike-bird-189454.jpg');
+    height: 100vh;
+    background-size: cover;
+
+
+}
+
+
+
+
+.login{
+    display: flex;
+    justify-content: center;
+}
+.form-login{
+    /* width: 35%;
+    margin-top: 15%;
+    margin-right: 50px;
+    background-color: rgb(185, 181, 181);
+    border-radius: 2px solid black;
+    padding: 20px;
+    border-radius: 2rem; */
+    /* height: 45vh; */
+        margin-top: 250px;
+
+    color: aliceblue;
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0,0,0,0.47);
+    box-shadow:2px 4px 10px 1px rgba(201,201,201,0.47);
+    padding: 20px;
+    background: transparent;
+    backdrop-filter: blur(20px);
+    
+    border-radius: 3rem;
+    width: 30%;
+}
+form h1{
+    color: rgb(255, 255, 255);
+    font-size: x-large;
+    /* border: 2px solid grey; */
+
+    text-decoration: none;
+}
+.btn{
+    /* background-color: darkblue; */
+    width: 30%;
+     color: aliceblue;
+}
